@@ -9,7 +9,7 @@ jobs:
       
       - uses: iterative/setup-cml@v1
       - name: Train model
-        run: |
+        run: |  
           # Your ML workflow goes here
           pip install -r requirements.txt
           python train.py
