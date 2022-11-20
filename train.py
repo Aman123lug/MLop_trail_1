@@ -90,3 +90,7 @@ a= train_model(rf)
 print(a)
 
 
+with open("score.txt", "w") as score:
+    score.write("Training Accuracy of model is : ",a)
+
+
